@@ -13,4 +13,8 @@ Main references are:
 2. stm32f407-NNOM-AMG8833-lenet.rar file includes mainly stm32 code. Also needs some libs like CMSIS-NN(version>1.8) and Rt-    Thread(version>5.2).
 3. This is the first version, later I'd like to upload and modify some files.
 
+(3). Results:
+I trained 3 types of gestures recognition : None--0, one finger--1, two finger--2, it's about 70-80% accuracy in test, and FPS is 10.
+
+
 Any questions please put issues or connect : 997398715(QQ)
