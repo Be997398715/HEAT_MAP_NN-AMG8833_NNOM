@@ -1,9 +1,16 @@
 # HEAT_MAP_NN-AMG8833_NNOM
 Mainly using AMG8833,  RT-Thread and NNOM libs to run heat-map recognition and setup neural network on STM32F4
 
+(1). Introduction:
 This project is my first attempt to do a neural network recognizing heat-map on stm32f4.
 Main references are: 
 1. NNOM : https://github.com/majianjia/nnom
 2. RE-Thread : https://www.rt-thread.org/document/site/tutorial/quick-start/introduction/introduction/
 
-This is the first version, more information seeing readme.txt
+(2). instructions:
+1. AMG883-Lenet directory is using python3 and keras to train and test amg8833 heat-map data collected by recieve.py.
+   Trainning is in amg8833_lenet-5.py. Some function is in utils.py.
+2. stm32f407-NNOM-AMG8833-lenet.rar file includes mainly stm32 code. Also needs some libs like CMSIS-NN(version>1.8) and Rt-    Thread(version>5.2).
+3. This is the first version, later I'd like to upload and modify some files.
+
+Any questions please put issues or connect : 997398715(QQ)
