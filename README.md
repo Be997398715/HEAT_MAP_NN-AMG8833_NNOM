@@ -10,7 +10,7 @@ Main references are:
 (2). instructions:
 1. AMG883-Lenet directory is using python3 and keras to train and test amg8833 heat-map data collected by recieve.py.
    Trainning is in amg8833_lenet-5.py. Some function is in utils.py.
-2. stm32f407-NNOM-AMG8833-lenet.rar file includes mainly stm32 code. Also needs some libs like CMSIS-NN(version>1.8) and Rt-    Thread(version>5.2).
+2. stm32f407-NNOM-AMG8833-lenet.rar file includes mainly stm32 code. Also needs some libs like CMSIS-NN(version>1.8) and Rt-    Thread(version>3.0) and CMSIS(version>5.2).
 3. This is the first version, later I'd like to upload and modify some files.
 
 (3). Results:
